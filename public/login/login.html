@@ -26,22 +26,13 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="../style/signup.css" />
-
-    <title>Signup</title>
+    <link rel="stylesheet" href="../style/login.css" />
+    <title>Login</title>
   </head>
   <body>
-    <h3>Create an Account</h3>
+    <h3>Log In To Your Account</h3>
     <div class="container">
       <form class="signup-form">
-        <label for="name" class="form-label">Firstname:</label>
-        <input
-          type="text"
-          id="name"
-          class="form-control"
-          required
-          placeholder="Your Name"
-        />
         <label for="email" class="form-label">Email:</label>
         <input
           type="email"
@@ -53,11 +44,13 @@
         <label for="password" class="form-label">Password:</label>
         <input type="password" id="password" class="form-control" required />
       </form>
-      <div class="user">
-        <button class="btn btn-signup btn-primary">Signup</button>
-        <span class="span-signup"
-          >Already a user😍
-          <a href="http://localhost:3000/login/login.html">Signin📲</a>
+    </div>
+    <div class="btn-place container">
+      <button class="btn btn-login btn-outline-danger">Login</button>
+      <div class="signup-link">
+        <span
+          >New User
+          <a href="http://localhost:3000/signup/signup.html">Signup📲</a>
         </span>
       </div>
     </div>
